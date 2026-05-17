@@ -16,6 +16,7 @@
       color: #F9F8F6;
       font-family: 'Inter', sans-serif;
       -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
     }
 
     /* ── Page column ─────────────────────────────────────────────── */
@@ -107,8 +108,8 @@
     /* ── Orb ─────────────────────────────────────────────────────── */
     .orb-wrap {
       position: relative;
-      width: clamp(240px, 42vw, 380px);
-      height: clamp(240px, 42vw, 380px);
+      width: clamp(420px, 78vw, 720px);
+      height: clamp(420px, 78vw, 720px);
       margin-bottom: clamp(32px, 6vh, 60px);
       flex-shrink: 0;
     }
@@ -130,11 +131,11 @@
       position: absolute;
       top: 50%; left: 50%;
       transform: translate(-50%, -50%);
-      width: 148%;
-      height: 148%;
+      width: 160%;
+      height: 160%;
       display: block;
-      -webkit-mask-image: radial-gradient(circle at 50% 50%, black 28%, transparent 60%);
-      mask-image:         radial-gradient(circle at 50% 50%, black 28%, transparent 60%);
+      -webkit-mask-image: radial-gradient(circle at 50% 50%, black 32%, transparent 72%);
+      mask-image:         radial-gradient(circle at 50% 50%, black 32%, transparent 72%);
     }
 
     /* ── Reserve your place label ────────────────────────────────── */
