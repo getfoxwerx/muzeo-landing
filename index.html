@@ -108,10 +108,11 @@
     /* ── Orb ─────────────────────────────────────────────────────── */
     .orb-wrap {
       position: relative;
-      width: clamp(420px, 78vw, 720px);
-      height: clamp(420px, 78vw, 720px);
+      width: clamp(378px, 70vw, 648px);
+      height: clamp(240px, 42vw, 380px);
       margin-bottom: clamp(32px, 6vh, 60px);
       flex-shrink: 0;
+      overflow: visible;
     }
 
     /* concentric atmosphere rings */
@@ -131,8 +132,9 @@
       position: absolute;
       top: 50%; left: 50%;
       transform: translate(-50%, -50%);
-      width: 160%;
       height: 160%;
+      width: auto;
+      aspect-ratio: 1;
       display: block;
       -webkit-mask-image: radial-gradient(circle at 50% 50%, black 32%, transparent 72%);
       mask-image:         radial-gradient(circle at 50% 50%, black 32%, transparent 72%);
